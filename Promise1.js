@@ -22,6 +22,7 @@ function getOrders(username) {
   });
 }
 
+console.log("sdljnjlfd")
 function getProceedOrders(orders) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
