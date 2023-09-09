@@ -78,3 +78,14 @@ function firstFunction(args, callback) {
   }
 
   main();
+
+
+  db.cart.insert({
+    "_id": 1,
+    "cart": [
+      {"item": "apple", "price": 12},
+      {"item": "banana", "price": 6},
+      {"item": "orange", "price": 9}
+    ]
+  }
+  )
